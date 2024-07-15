@@ -38,7 +38,7 @@ def main():
 
     # Basic statistics
     st.subheader(f'Total Count of people having same blood group in {selected_city}')
-    st.write(pd.DataFrame({'Total count':filtered_df.shape[0]}))
+    st.write(filtered_df.shape[0])
 
 if __name__ == '__main__':
     main()
