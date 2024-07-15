@@ -14,7 +14,7 @@ def main():
     # st.sidebar.header('Upload your CSV file')
     # uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
 
-    df = load_data(uploaded_file)
+    df = load_data()
     
     # if uploaded_file is not None:
     #     # Load data into a DataFrame
